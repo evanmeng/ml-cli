@@ -2,4 +2,6 @@
 .DS_Store
 .py[c|o]
 __pycache__/
+.ropeproject/
+.vscode/
 datasets/
