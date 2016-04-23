@@ -58,7 +58,6 @@ def ff_rating_btwn(args):
 
 
 def ff_rating_lt(*args):
-    print("args: %s" % args)
     r = float(args[0])
     return (lambda i: i.mean_rating < r)
 
